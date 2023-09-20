@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    font-size: 40px;
+    font-weight: bolder;
+    color: darkolivegreen;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(110, 130, 76);
+    height: auto;
+}
+#heading{
+    color: white;
+    padding-top: 20px;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin-top: 5px;
+    background-color: whitesmoke;
+    border: 2px solid green;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    height: 470px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.input{
+    height: 55px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 2px double darkolivegreen;
+    border-radius: 1rem;
+    width: 75px;
+}
+#year{
+    width: 120px;
+}
+input[type=number]{
+    font-size: 25px;
+    color: darkred;
+    font-weight: bolder;
+    /* background-color: rgb(177, 216, 177); */
+}
+#btn{
+    height: 40px;
+    width: 145px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+    color:darkred;
+    background: none;
+    border: 2px double darkolivegreen;
+    border-radius: 1rem;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    color:darkolivegreen;
+    font-weight: bolder;
+    margin-top: 15px;
+    text-align: center;
+}
+.result > div{
+    /* border: 1px solid darkolivegreen; */
+    margin: 5px;
+    font-weight: normal;
+    text-align:left ;
+}
+.pera{
+    display: inline;
+    color:maroon
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#frm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
